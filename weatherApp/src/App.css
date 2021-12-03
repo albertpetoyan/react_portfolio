@@ -1,0 +1,57 @@
+.app {
+  text-align: center;
+  height: 450px;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.card {
+  margin-top: 50px;
+  height: 100%;
+}
+.form-control {
+  border: none;
+  border-bottom: 1px solid #6c757d;
+}
+.btn-outline-secondary {
+  border-radius: 100% !important
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.overlay {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #6c757d;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.overlay p {
+  color: azure;
+  font-size: 85px;
+}
+.list__block {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column
+}
+.icon {
+  height: 100px;
+}
+.icon img {
+  height: 100%;
+}
+.card img {
+  height: 101%;
+}
+.card-body {
+  position: relative;
+}
